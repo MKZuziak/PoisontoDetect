@@ -1,6 +1,6 @@
 # Artifact Appendix
 
-Paper title: **Enter the exact title of your PETS accepted paper here**
+Paper title: **Poison to Detect: Detection of Targeted Overfitting in Federated Learning**
 
 Requested Badge(s):
   - [X] **Available**

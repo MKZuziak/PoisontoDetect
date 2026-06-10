@@ -184,18 +184,9 @@ List each experiment to execute to reproduce your results. Describe:
  - How much space it consumes on disk (approximately) (omit if <10GB).
  - Which claim and results does it support, and how.
 
-#### Experiment 1: Name
-- Time: replace with estimate in human-minutes/hours + compute-minutes/hours.
-- Storage: replace with estimate for disk space used (omit if <10GB).
+#### Experiment 1: Example — launching a federated learning run
 
-Provide a short explanation of the experiment and expected results. Describe
-thoroughly the steps to perform the experiment and to collect and organize the
-results as expected from your paper (see example below). Use code segments to
-simplify the workflow, as follows.
-
-```bash
-python3 experiment_1.py
-```
+An example SageMaker launcher is provided in `example_luncher.ipynb` at the root of the repository. It illustrates how to configure and submit a training job with a chosen dataset, attack method, and client setup. Adapt the hyperparameters in the notebook to match the specific experiment you wish to reproduce, then run all cells to submit the job.
 
 #### Experiment 2: Example Name
 

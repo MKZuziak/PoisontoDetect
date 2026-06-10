@@ -1,0 +1,8 @@
+torch>=1.13.0
+torchvision>=0.13.0
+numpy
+scipy
+datasets
+medmnist==2.2.2
+boto3
+# torchgeo  # optional: only needed if EuroSAT is not available in your torchvision version

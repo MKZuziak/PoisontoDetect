@@ -9,14 +9,16 @@ Requested Badge(s):
 
 
 ## Description
-Replace this with the following:
+The following repository contains artifacts for the PoPETs 2026 paper **Poison to Detect: Detection of Targeted Overfitting in Federated Learning** by Soumia Zohra EL MESTARI (University of Luxembourg)*, Maciej Krzysztof ZUZIAK (University of Leeds)* and Gabriele LENZINI (University of Luxembourg). 
+The set of disclosed artifacts contains code used for performing original simulations presented in the paper, together with a simplified API for configuring and running, and re-creating end-user experiments.
 
-1. List the paper that the artifact relates to (i.e., paper title, authors,
-   year, or even a BibTex cite).
-2. A short description of your artifact and how it is relevant to your paper.
+* Both authors contributed equally to the paper.
+
 
 ### Security/Privacy Issues and Ethical Concerns
-The artifacts published therein 
+The artifacts published in this repository do not have any prior known security issues. That being said, the code depends on numerous external third-party libraries, and it is essential to follow good security and engineering practices, including environment virtualisation. Please see the section **environment** for full set of guidelines and the list of requried dependencies.
+
+Since the disclosed code can be used only for simulating the attacks, no additional ethical concerns are raised here. Consult the original paper for a full ethical evaluation regarding the disclosed solution.
 
 
 ## Environment

@@ -138,7 +138,6 @@ CUDA available: True   # or False if running on CPU only
 Then do a quick end-to-end smoke test by running a single round on a small configuration:
 
 ```bash
-cd Detection_tools
 python3 main.py \
     --dataset_name mnist \
     --num_clients 4 \

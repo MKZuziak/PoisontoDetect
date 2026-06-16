@@ -155,37 +155,10 @@ If the script prints per-round metrics and exits without errors, the environment
 
 
 ### Experiments
-List each experiment to execute to reproduce your results. Describe:
- - How to execute it in detailed steps.
- - What the expected result is.
- - How long it takes to execute in human and compute times (approximately).
- - How much space it consumes on disk (approximately) (omit if <10GB).
- - Which claim and results does it support, and how.
 
-#### Experiment 1: Example — launching a federated learning run
+#### Experiment 1: Example launching a federated learning run
 
 An example SageMaker launcher is provided in `example_luncher.ipynb` at the root of the repository. It illustrates how to configure and submit a training job with a chosen dataset, attack method, and client setup. Adapt the hyperparameters in the notebook to match the specific experiment you wish to reproduce, then run all cells to submit the job.
-
-#### Experiment 2: Example Name
-
-- Time: 10 human-minutes + 3 compute-hours
-- Storage: 20GB
-
-This example experiment reproduces
-[Main Result 2: Example Name](#main-result-2-example-name), the following script
-will run the simulation automatically with the different parameters specified in
-the paper. (You may run the following command from the example Docker image.)
-
-```bash
-python3 main.py
-```
-
-Results from this example experiment will be aggregated over several iterations
-by the script and output directly in raw format along with variances and
-standard deviations in the `output-folder/` directory. You will also find there
-the plots for "Figure 1a" in `.pdf` format and the table for "Table 3" in `.tex`
-format. These can be directly compared to the results reported in the paper, and
-should not quantitatively vary by more than 5% from expected results.
 
 
 

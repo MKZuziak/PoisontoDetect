@@ -16,7 +16,7 @@ The set of disclosed artifacts contains code used for performing original simula
 
 
 ### Security/Privacy Issues and Ethical Concerns
-The artifacts published in this repository do not have any prior known security issues. That being said, the code depends on numerous external third-party libraries, and it is essential to follow good security and engineering practices, including environment virtualisation. Please see the section **environment** for full set of guidelines and the list of requried dependencies.
+The artifacts published in this repository do not have any prior known security issues. That being said, the code depends on numerous external third-party libraries, and it is essential to follow good security and engineering practices, including environment virtualisation. Please see the section **environment** for full set of guidelines and the list of required dependencies.
 
 Since the disclosed code can be used only for simulating the attacks, no additional ethical concerns are raised here. Consult the original paper for a full ethical evaluation regarding the disclosed solution.
 
@@ -153,30 +153,6 @@ python3 main.py \
 If the script prints per-round metrics and exits without errors, the environment is correctly set up.
 
 
-### Main Results and Claims
-
-List all your paper's results and claims that are supported by your submitted
-artifacts.
-
-#### Main Result 1: Name
-
-Describe the results in 1 to 3 sentences. Mention what the independent and
-dependent variables are; independent variables are the ones on the x-axes of
-your figures, whereas the dependent ones are on the y-axes. By varying the
-independent variable (e.g., file size) in a given manner (e.g., linearly), we
-expect to see trends in the dependent variable (e.g., runtime, communication
-overhead) vary in another manner (e.g., exponentially). Refer to the related
-sections, figures, and/or tables in your paper and reference the experiments
-that support this result/claim. See example below.
-
-#### Main Result 2: Example Name
-
-Our paper claims that when varying the file size linearly, the runtime also
-increases linearly. This claim is reproducible by executing our
-[Experiment 2](#experiment-2-example-name). In this experiment, we change the
-file size linearly, from 2KB to 24KB, at intervals of 2KB each, and we show that
-the runtime also increases linearly, reaching at most 1ms. We report these
-results in "Figure 1a" and "Table 3" (Column 3 or Row 2) of our paper.
 
 ### Experiments
 List each experiment to execute to reproduce your results. Describe:
@@ -211,13 +187,5 @@ the plots for "Figure 1a" in `.pdf` format and the table for "Table 3" in `.tex`
 format. These can be directly compared to the results reported in the paper, and
 should not quantitatively vary by more than 5% from expected results.
 
-## Notes on Reusability
 
-First, this section might not apply to your artifacts. Describe how your
-artifact can be used beyond your research paper, e.g., as a general framework.
-The overall goal of artifact evaluation is not only to reproduce and verify your
-research but also to help other researchers to re-use and extend your artifacts.
-Discuss how your artifacts can be adapted to other settings, e.g., more input
-dimensions, other datasets, and other behavior, through replacing individual
-modules and functionality or running more iterations of a specific module.
 

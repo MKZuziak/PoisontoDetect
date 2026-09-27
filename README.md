@@ -10,8 +10,11 @@ For setup instructions, environment requirements, and experiment details, see [A
       title={Poison to Detect: Detection of Targeted Overfitting in Federated Learning},
       author={El Mestari, Soumia Zohra and Zuziak, Maciej Krzysztof and Lenzini, Gabriele},
       booktitle={Proceedings on {Privacy} {Enhancing} {Technologies} {Symposium} ({PETS})},
+      volume={2026},
+      number={4},
+      pages={480--506},
       year={2026},
       month={july},
-      doi={10.56553/popets-2026-xxxx}
+      doi={10.56553/popets-2026-0131}
 }
 ```
